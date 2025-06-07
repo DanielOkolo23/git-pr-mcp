@@ -40,4 +40,4 @@ spec:
           limits:
             memory: "1Gi"
             cpu: "1000m"
-      restartPolicy: Always 
+      restartPolicy: Always

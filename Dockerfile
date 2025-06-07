@@ -34,4 +34,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
   CMD curl -f http://localhost:${FASTMCP_PORT:-8000}/sse || exit 1
 
 # Run the MCP server
-CMD ["uv", "run", "main.py"] 
+CMD ["uv", "run", "main.py"]
